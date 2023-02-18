@@ -119,7 +119,7 @@ class DemoPeripheral implements Peripheral {
   private laps = [];
 
   private config = {
-    numCars: 8,
+    numCars: 4,
     numSectors: 3,
     maxStartTime: 1500,
     minSectorTime: 3000,

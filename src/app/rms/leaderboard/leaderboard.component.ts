@@ -20,12 +20,24 @@ const FIELDS = [{
   ]
 }, {
   // with fuel/pit lane
+//   practice: [
+//     'bestlap gap int lastlap laps fuel status',
+//     'bestlap sector1 sector2 sector3 lastlap fuel status'
+//   ],
+//   qualifying: [
+//     'bestlap gap int lastlap laps fuel status',
+//     'bestlap sector1 sector2 sector3 lastlap fuel status'
+//   ],
+//   race: [
+//     'time bestlap lastlap laps pits fuel status',
+//     'time sector1 sector2 sector3 lastlap fuel status'
+//   ]
   practice: [
-    'bestlap gap int lastlap laps fuel status',
+    'bestlap lastlap laps fuel status',
     'bestlap sector1 sector2 sector3 lastlap fuel status'
   ],
   qualifying: [
-    'bestlap gap int lastlap laps fuel status',
+    'bestlap lastlap laps fuel status',
     'bestlap sector1 sector2 sector3 lastlap fuel status'
   ],
   race: [
