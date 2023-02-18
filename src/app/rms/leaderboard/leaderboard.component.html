@@ -1,5 +1,8 @@
-<leaderboard-head class="row" [fields]="fields"></leaderboard-head>
+<leaderboard-head class="row"
+                  [fields]="fields"
+                  [ngClass]="mode"></leaderboard-head>
 <leaderboard-item class="row" *ngFor="let item of items; let n = index;"
                   [ngClass]="n % 2 ? 'odd' : 'even'"
+                  [ngClass]="mode"
                   [fields]="fields" [item]="item" [ranked]="ranked" [best]="best">
 </leaderboard-item>

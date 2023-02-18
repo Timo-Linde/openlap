@@ -5,11 +5,12 @@
 }
 
 @media (orientation: landscape) {
-    leaderboard:not([ng-refelect-mode="race"]):host {
+    :host {
         font-size: 3.5vw;
     }
 
-    leaderboard[ng-reflect-mode="race"]:host
+    leaderboard-head.race:host,
+    leaderboard-item.race:host
     {
       font-size: 2.7vw;
     }
