@@ -7,11 +7,11 @@ import { Subscription } from 'rxjs';
 const FIELDS = [{
   // no fuel/pit lane
   practice: [
-    'bestlap gap int lastlap laps status',
+    'bestlap lastlap laps status',
     'bestlap sector1 sector2 sector3 lastlap status'
   ],
   qualifying: [
-    'bestlap gap int lastlap laps status',
+    'bestlap lastlap laps status',
     'bestlap sector1 sector2 sector3 lastlap status'
   ],
   race: [
